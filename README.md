@@ -1,2 +1,2 @@
-# Hello-World2
+# Hello-World
 My first school repository
