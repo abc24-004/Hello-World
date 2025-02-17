@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  color: #E6E6F3;
+  color: #E6E6F3 !important;
   background-color: black;
   margin: 0;
   padding: 0;
