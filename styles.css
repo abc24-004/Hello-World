@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  color: black;
-  background-color: #E6E6F3;
+  color: #E6E6F3;
+  background-color: black;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -20,7 +20,7 @@ header h1 {
 
 
 nav a {
-  color: white !important;
+  color: white;
   text-decoration: none;
   margin: 0 10px;
 }
