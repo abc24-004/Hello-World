@@ -1,7 +1,7 @@
 body {
-  font-family: "Gill Sans", sans-serif;;
-  color: #E6E6F3;
-  background-color: black;
+  font-family: "Gill Sans", sans-serif;
+  color: black;
+  background-color: #E6E6F3;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -44,7 +44,7 @@ main img {
 }
 
 footer {
-  background-color: #7B7C83;
+  background-color: #E6E6F3;
   color: white;
   text-align: center;
   padding: 5px;
@@ -69,7 +69,7 @@ a:hover {
 }
 
 img {
-  border: 10px solid #56569C;
+  border: 10px solid #E6E6F3;
   border-radius: 10px;
 }
 
