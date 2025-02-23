@@ -48,16 +48,6 @@ main img {
   margin: 20px 0;
 }
 
-footer {
-  background-color: #56569C;
-  color: white;
-  text-align: center;
-  padding: 5px;
-  position: fixed;
-  bottom: 0; 
-  width: 100%;
-}
-
 p {
   font-size: 1.1em;
 }
