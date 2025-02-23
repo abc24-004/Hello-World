@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,44 +8,59 @@
   <link rel="stylesheet" href="styles.css">
   <title>About Me</title>
 </head>
-  
+
 <body>
   <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">My Website</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">My Website</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
+
+  <header class="hero text-white text-center d-flex align-items-center justify-content-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold">About Me</h1>
+      <p class="lead">Get to know a little more about my journey in Software Development!</p>
+    </div>
+  </header>
+
   <main class="container my-5">
-      <h2>About Me</h2>
-      <p>Hi! I'm a beginner web developer learning how to use GitHub Pages.</p>
-      <p>This is my first multi-page website, and I'm excited to share it with you!</p>
+    <div class="row">
+      <div class="col-md-8">
+        <h2>Hi! I'm Kevin</h2>
+        <p>I'm an intermediate software developer learning how to use GitHub Pages and build my first multi-page website.</p>
+        <p>I have experience in Python, HTML, CSS and some Javascript. I am currently learning C#</p>
+        <p>I'm excited to share my journey with you, and I hope to continue growing in this field. Thanks for visiting my site!</p>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">My Goals</h5>
+            <p class="card-text">I'm working on expanding my web development skills and learning best practices for modern websites. I aim to make websites that are accessible, fast, and user-friendly.</p>
+            <a href="contact.html" class="btn btn-dark">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 
-
-  <footer>
+  <footer class="bg-dark text-white text-center py-3">
     <p>&copy; 2025 Kevin Ruhukya</p>
   </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
